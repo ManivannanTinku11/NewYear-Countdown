@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://www.infarmbureau.com/images/agents/kidswithfireworks.jpg?sfvrsn=787326ba_1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color:snow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    
+
+
+}
+h1{
+    font-weight: normal;
+    font-size: 60px;
+    margin: -150px 0 40px;
+    padding: 85px;
+    letter-spacing: 2.5px;
+
+}
+
+#countdown {
+    display: flex;
+    transform: scale(2);
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 5px;
+    color: springgreen;
+
+}
+
+.time h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+
+}
+@media(max-width:500px){
+    h1{
+        font-size: 43px;;
+    }
+    .time{
+        margin: 5px;;
+    }
+    .time h2{
+        font-size: 12px;
+    }
+    .time small{
+        font-size: 10px;
+    }
+}
